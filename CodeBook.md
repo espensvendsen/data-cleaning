@@ -12,7 +12,9 @@ and attempts to classify them according to 6 activites (sitting, laying, etc.)
 The output is stored in tidy_data.txt. 
 It describes the average of every measurements for each activity and each subject.
 
-|| Column || Description ||
+| Column | Description |
+|--------|-------------|
 | Subject | Id of subject (sequence number)|
 | Activity | Activity label |
-| ...remaining columns | Average values for each measurement |
+| ...remaining columns | Each remaining column represents an average value of a measurement |
+
