@@ -16,6 +16,6 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 ## Instructions
 Run run_analysis.R. It will do the following:
-1. Create a local folder .\data and unzip the project data in folder "UCI HAR Dataset"
-2. Process and clean data set 
-3. Store the tidy result in .\data\tiny_data.txt
+* Create a local folder \data and unzip the project data in folder UCI HAR Dataset
+* Process and clean data set
+* Store the tidy result in \data\tiny_data.txt
