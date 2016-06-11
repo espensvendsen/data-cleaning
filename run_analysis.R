@@ -69,4 +69,4 @@ varNames <- grep("Mean|Std", colnames(data), value = T)
 melted <- melt(data, id=c("subject", "activity"), measure.vars = varNames)
 tidy <- dcast(melted, subject + activity ~ variable, mean)
 
-write.table(tidy, file = "./data/tidy_data.txt")
+write.table(tidy, file = "./data/tidy_data.txt", row.names = F)
